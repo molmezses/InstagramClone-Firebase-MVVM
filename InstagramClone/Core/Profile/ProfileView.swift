@@ -78,6 +78,13 @@ struct ProfileView: View {
                     .navigationTitle("MyProfile")
                     .navigationBarTitleDisplayMode(.inline)
                     .toolbar{
+                        ToolbarItem(placement: .topBarLeading) {
+                            Image("InstagramLogo")
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 100 , height: 32)
+                                .padding(.bottom , 4)
+                        }
                         ToolbarItem(placement: .topBarTrailing) {
                             Image(systemName: "line.3.horizontal")
                         }

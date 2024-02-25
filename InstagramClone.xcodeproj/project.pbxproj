@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E9588FB2B8BF34C00ED5451 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9588FA2B8BF34C00ED5451 /* FeedView.swift */; };
+		8E9588FD2B8BF36000ED5451 /* FeedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9588FC2B8BF36000ED5451 /* FeedCellView.swift */; };
 		8EDAF8352B8B7C9600A339D2 /* InstagramCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAF8342B8B7C9600A339D2 /* InstagramCloneApp.swift */; };
 		8EDAF8372B8B7C9600A339D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAF8362B8B7C9600A339D2 /* ContentView.swift */; };
 		8EDAF8392B8B7C9700A339D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDAF8382B8B7C9700A339D2 /* Assets.xcassets */; };
@@ -45,6 +47,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E9588FA2B8BF34C00ED5451 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		8E9588FC2B8BF36000ED5451 /* FeedCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellView.swift; sourceTree = "<group>"; };
 		8EDAF8312B8B7C9600A339D2 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDAF8342B8B7C9600A339D2 /* InstagramCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneApp.swift; sourceTree = "<group>"; };
 		8EDAF8362B8B7C9600A339D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -218,6 +222,8 @@
 		8EDAF8862B8B815100A339D2 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				8E9588FA2B8BF34C00ED5451 /* FeedView.swift */,
+				8E9588FC2B8BF36000ED5451 /* FeedCellView.swift */,
 			);
 			name = Feed;
 			sourceTree = "<group>";
@@ -332,10 +338,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9588FD2B8BF36000ED5451 /* FeedCellView.swift in Sources */,
 				8EDAF88B2B8B867900A339D2 /* ProfileView.swift in Sources */,
 				8EDAF8372B8B7C9600A339D2 /* ContentView.swift in Sources */,
 				8EDAF8352B8B7C9600A339D2 /* InstagramCloneApp.swift in Sources */,
 				8EDAF88D2B8B877700A339D2 /* UserStatView.swift in Sources */,
+				8E9588FB2B8BF34C00ED5451 /* FeedView.swift in Sources */,
 				8EDAF8892B8B847400A339D2 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
