@@ -98,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E698A442B8BFD2F00181E2A /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				8E9588FA2B8BF34C00ED5451 /* FeedView.swift */,
+				8E9588FC2B8BF36000ED5451 /* FeedCellView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 		8EDAF8282B8B7C9500A339D2 = {
 			isa = PBXGroup;
 			children = (
@@ -158,8 +167,8 @@
 		8EDAF87D2B8B802100A339D2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				8E698A442B8BFD2F00181E2A /* Feed */,
 				8EDAF8872B8B815800A339D2 /* Authentication */,
-				8EDAF8862B8B815100A339D2 /* Feed */,
 				8EDAF8852B8B814B00A339D2 /* Profile */,
 				8EDAF8842B8B80A300A339D2 /* Search */,
 				8EDAF8832B8B809A00A339D2 /* TabBar */,
@@ -217,15 +226,6 @@
 				8EDAF88A2B8B867900A339D2 /* ProfileView.swift */,
 			);
 			path = Profile;
-			sourceTree = "<group>";
-		};
-		8EDAF8862B8B815100A339D2 /* Feed */ = {
-			isa = PBXGroup;
-			children = (
-				8E9588FA2B8BF34C00ED5451 /* FeedView.swift */,
-				8E9588FC2B8BF36000ED5451 /* FeedCellView.swift */,
-			);
-			name = Feed;
 			sourceTree = "<group>";
 		};
 		8EDAF8872B8B815800A339D2 /* Authentication */ = {
